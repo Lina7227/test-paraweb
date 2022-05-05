@@ -1,0 +1,15 @@
+.page {
+    font-family: 'Manrope', Arial, sans-serif;
+    min-width: 320px;
+    max-width: 1440px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(320px, 1440px);
+    grid-template-rows: repeat(3, min-content);
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+}
